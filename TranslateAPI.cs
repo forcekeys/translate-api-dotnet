@@ -203,7 +203,7 @@ namespace ForceKeys.TranslateAPI
         private readonly string _baseUrl;
         private readonly HttpClient _httpClient;
         
-        private const string DefaultBaseUrl = "https://api.translate.forcekeys.com/api/v1";
+        private const string DefaultBaseUrl = "https://api.deeptranslate.online/api/v1";
         private static readonly TimeSpan DefaultTimeout = TimeSpan.FromSeconds(30);
         
         /// <summary>

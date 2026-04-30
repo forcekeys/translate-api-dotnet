@@ -3,7 +3,7 @@
 [![NuGet Version](https://img.shields.io/nuget/v/TranslateAPI.svg)](https://www.nuget.org/packages/TranslateAPI)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/TranslateAPI.svg)](https://www.nuget.org/packages/TranslateAPI)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Documentation](https://img.shields.io/badge/docs-forcekeys.com-blue.svg)](https://translate.forcekeys.com/docs)
+[![Documentation](https://img.shields.io/badge/docs-deeptranslate.online-blue.svg)](https://deeptranslate.online/docs)
 [![.NET Standard](https://img.shields.io/badge/.NET%20Standard-2.0-blue.svg)](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
 
 Official .NET/C# client library for the TranslateAPI translation service. Translate text, documents, and images between 70+ languages with a simple, intuitive interface. Supports .NET Framework, .NET Core, .NET 5+, and Xamarin.
@@ -53,7 +53,7 @@ dotnet build
 
 ### 1. Get Your API Key
 
-First, sign up at [translate.forcekeys.com](https://translate.forcekeys.com) to get your free API key.
+First, sign up at [deeptranslate.online](https://deeptranslate.online) to get your free API key.
 
 ### 2. Basic Usage
 
@@ -239,7 +239,7 @@ using System.Net.Http;
 var httpClient = new HttpClient
 {
     Timeout = TimeSpan.FromSeconds(30),
-    BaseAddress = new Uri("https://api.translate.forcekeys.com/api/v1")
+    BaseAddress = new Uri("https://api.deeptranslate.online/api/v1")
 };
 
 var api = new TranslateAPI("your_api_key", httpClient);
@@ -251,7 +251,7 @@ var api = new TranslateAPI("your_api_key", httpClient);
 var options = new TranslateAPIOptions
 {
     ApiKey = "your_api_key",
-    BaseUrl = "https://api.translate.forcekeys.com/api/v1",
+    BaseUrl = "https://api.deeptranslate.online/api/v1",
     Timeout = TimeSpan.FromSeconds(30),
     RetryCount = 3,
     DefaultSourceLanguage = "en",
@@ -484,9 +484,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-- **Documentation**: [translate.forcekeys.com/docs](https://translate.forcekeys.com/docs)
+- **Documentation**: [deeptranslate.online/docs](https://deeptranslate.online/docs)
 - **Issues**: [GitHub Issues](https://github.com/forcekeys/translate-api-dotnet/issues)
-- **Email**: support@forcekeys.com
+- **Email**: support@deeptranslate.online
 - **Discord**: [Join our Discord](https://discord.gg/forcekeys)
 
 ## License
